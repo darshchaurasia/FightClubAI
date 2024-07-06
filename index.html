@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FightClub AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="fightclub_icon.png" alt="FightClub AI Icon"> <!-- Placeholder for icon -->
+        <h1>FightClub AI</h1>
+    </header>
+    <div id="debateInput">
+        <input type="text" id="topic" placeholder="Enter debate topic">
+        <button id="startButton">Enter</button>
+    </div>
+    <div class="container">
+        <div class="side red">
+            <div class="ai-section">
+                <img src="for_ai.png" alt="FOR-AI Image"> <!-- Placeholder for FOR-AI image -->
+                <h2>FOR-AI</h2>
+            </div>
+        </div>
+        <div class="crack"></div>
+        <div class="side blue">
+            <div class="ai-section">
+                <img src="against_ai.png" alt="AGAINST-AI Image"> <!-- Placeholder for AGAINST-AI image -->
+                <h2>AGAINST-AI</h2>
+            </div>
+        </div>
+        <div class="center-space">
+            <p id="debateText">Debate will appear here...</p>
+        </div>
+    </div>
+    <div class="dock">
+        <button id="resultsButton">Press for Results</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
